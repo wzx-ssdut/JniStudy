@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# 运行程序
+java -classpath ./bin -Djava.library.path=./libs wzx.ssdut.Hello
+
+exit 0

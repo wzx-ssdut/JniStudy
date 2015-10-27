@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# 编译Java源码
+rm -rf bin
+mkdir bin
+javac -d ./bin src/Hello.java
+
+# 生成头文件
+javah -classpath ./bin -o Hello.h wzx.ssdut.Hello
+
+
+exit 0
